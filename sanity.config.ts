@@ -9,7 +9,7 @@ export default defineConfig({
 
   projectId: 'd3gsrzw0',
   dataset: 'production',
-
+  unstable_noLoaderAutoUpdate: true,
   plugins: [structureTool(), visionTool()],
 
   schema: {
